@@ -1,0 +1,44 @@
+input#gender option[value="male"]   { background-image:url(./images/male.png);   }
+radio#gender option[value="female"] { background-image:url(./images/female.png); }
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    
+  }
+  [type=radio]:checked
+  {
+      background-color: black;
+  }
+
+    input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:'#A2A2A2';
+    text-decoration-color: #A2A2A2;
+    position: relative;
+    opacity: 1.0; 
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  p#grp{
+    width: 40px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding-top: 13px;
+    text-align: center;
+    float: left;
+    margin-top: 4px;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 50%;
+    shape-rendering: auto;
+    color:#757575;
+
+    border: solid #C9C9C9 1px;
+  }
+ 
